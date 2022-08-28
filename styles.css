@@ -68,10 +68,28 @@ ul{
     color: white;
     background-color: #05617f;
     padding:8px 16px;
-    border-radius: 16px;
-    
-
-
+    border-radius: 32px;
+    transition: all 500ms ease;
 
 }
 
+
+.nav__link--anchor-primary:hover {
+
+    background-color: #320E5A;
+    
+}
+.personal__logo{
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #05617f;
+    margin: 0 12px;
+
+}
+
+.color__name{
+
+    color:#05617f;
+
+}
