@@ -19,9 +19,8 @@ span {
   line-height: 1.25;
 }
 
-h1{
-
-    font-size: 36px;
+h1 {
+  font-size: 36px;
 }
 
 p {
@@ -71,7 +70,7 @@ ul {
 }
 
 .nav__link--anchor-primary:hover {
-  background-color: #320e5a;
+  background-color: #460c87;
 }
 .personal__logo {
   font-size: 24px;
@@ -105,48 +104,60 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width:800px;
-  margin:0 auto;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.about-me__picture--mask {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border-radius: 75px;
+  box-shadow: 0px 8px 16px rgb(0, 0, 0, 1);
+}
+
+.about-me__picture {
+  width: 100%;
+}
+
+.about-me__info--para {
+  font-size: 19px;
+  margin-bottom: 16px;
+}
+
+.about-me__info--title {
+  margin-bottom: 24px;
+}
+
+.about-me__link {
+  font-size: 28px;
+  color: black;
+  margin-left: 24px;
+}
+
+.about-me__info{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about-me__img--container {
+
+    flex:1;
+    margin-top:32px;
+    
+    
+    
 
 }
 
-.about-me__picture--mask{
-
-
-    height:200px;
-    width:200px;
-    overflow:hidden;
-    margin-bottom: 16px;
-    border-radius: 75px;
-    box-shadow: 0px 8px 16px rgb(0,0,0,1);
-
-
-
-}
-
-.about-me__picture{
+.about-me__img{
 
     width:100%;
-    
-}
-
-.about-me__info--para{
-font-size:19px;
-margin-bottom: 16px;
-
-
-}
-
-.about-me__info--title{
-
-    margin-bottom: 24px;
-}
-
-.about-me__link{
-
-    font-size: 28px;
-    color: black;
-    margin-left: 24px;
+    height:410px;
 }
 
