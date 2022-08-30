@@ -115,8 +115,8 @@ ul {
 }
 
 .about-me__picture--mask {
-  height: 100px;
-  width: 100px;
+  height: 175x;
+  width: 175px;
   overflow: hidden;
   margin-bottom: 16px;
   border-radius: 75px;
@@ -178,6 +178,25 @@ ul {
     margin-bottom:20px;
 
 }
+
+.language__img{
+
+    width:100%;
+    max-width: 100px;
+}
+.language__img--wrapper{
+
+   
+    
+}   
+
+.language__list{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 
