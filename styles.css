@@ -116,7 +116,7 @@ ul {
 
 .about-me__picture--mask {
   height: 175x;
-  width: 175px;
+  width: 150px;
   overflow: hidden;
   margin-bottom: 16px;
   border-radius: 75px;
@@ -140,7 +140,19 @@ ul {
   font-size: 28px;
   color: black;
   margin-left: 24px;
+  
 }
+.about-me__link i:hover{
+
+    transform:scale(1.2);
+    transition:all 300ms ease-in-out;
+
+
+
+
+}
+
+
 
 .about-me__info{
 
@@ -184,6 +196,9 @@ ul {
     width:100%;
     max-width: 100px;
     transition: all 600ms ease;
+    overflow: hidden;
+    b
+    
 }
 
 
@@ -205,11 +220,12 @@ ul {
     align-items: center;
     padding: 20px;
     
+    
 
 
 }
 
-.language__img:hover{
+.language:hover .language__img{
 
     filter:brightness(80%);
     opacity: 0.86;
@@ -224,19 +240,20 @@ flex-direction:column-reverse;
 align-items: center;
 
 
+
 }
 .language__name{
 
     transform: scale(0);
-
+    transition:all 600ms ease;
     
 }
 
-.language:hover .language__name {
+.language:hover .language__name  {
 
     transform:scale(1);
-    transition:all 600ms ease;
     
+
 }
 
 
