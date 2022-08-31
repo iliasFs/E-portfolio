@@ -256,4 +256,61 @@ align-items: center;
 
 }
 
+/* PROJECT SECTION */
+
+
+.project__img{
+
+    width:100%;
+    transition:all 600ms ease;
+
+
+}
+.project__wrapper{
+
+display:flex; /*       the image occupied the full wrapp div      */
+    box-shadow: 0 20px 80px rgba(0, 35, 80, 0.6);
+    border-radius: 20px;
+    overflow:hidden; /* image is overflowing wrapper so we use overflow hidden to prevent it */
+    position:relative
+
+
+
+}
+
+.project__wrapper:before{      /*before pseudo selector */
+    content: "";
+    position:absolute; /* so it wont affect the position of anything else */
+    height:100%;
+    width:100%;
+    background-color: #1c1d25;
+    opacity: 0;
+    transition: opacity 600ms ease;
+    z-index: 2;
+
+
+}
+
+/*we want to target the before pseudo selector on the project wrapper so... */
+
+.project:hover .project__wrapper:before{
+
+    opacity: 0.7;
+    
+}
+
+.project:hover .project__img {  /* when we hover over the project we want to scale the image larger*/
+
+    transform:scale(1.07);
+
+
+
+
+}
+
+.project__list{
+
+    padding-top:20px;
+
+}
 
