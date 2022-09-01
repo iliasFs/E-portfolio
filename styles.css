@@ -314,5 +314,54 @@ display:flex; /*       the image occupied the full wrapp div      */
 
 }
 
+.project__description{
+
+  position:absolute;
+  top:50%;   /*   we center it */
+  transform: translateY(-50%);   /*   we center it */ 
+  left:90px; 
+  max-width:550px;
+  z-index: 3;
+  opacity: 0;   /*we want the white text not to be visible unless we hover, so we :hover and there opacity 1--below*/
+  transition: opacity 1.5s ease;   /* we make the white text to appear smoothly */
+
+
+
+}
+
+.project:hover .project__description{
+  opacity:1;
+  
+
+}
+
+.project__description--title,
+.project__description--subtitle,
+.project__description--para,
+.project__description--link
+{
+  text-align: left;
+  color:#ffff;
+
+}
+.project__description--para{
+  margin:16px 0;
+
+}
+.project__description--link{
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.project__description--title{
+  font-size: 50px;
+}
+
+.project__description--subtitle{
+  font-size:30px;
+
+}
+
 
 
