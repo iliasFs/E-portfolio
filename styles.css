@@ -198,8 +198,8 @@ ul {
     transition: all 600ms ease;
     overflow: hidden;
     b
-    
 }
+
 
 
 .language__list{
@@ -318,12 +318,12 @@ display:flex; /*       the image occupied the full wrapp div      */
 
   position:absolute;
   top:50%;   /*   we center it */
-  transform: translateY(-50%);   /*   we center it */ 
+  transform: translateY(100%);   
   left:90px; 
   max-width:550px;
   z-index: 3;
   opacity: 0;   /*we want the white text not to be visible unless we hover, so we :hover and there opacity 1--below*/
-  transition: opacity 1.5s ease;   /* we make the white text to appear smoothly */
+  transition: transform 1.5s, opacity 1.5s ease;   /* we make the white text to appear smoothly and with transform wich need a comma cause there are 2 transitions inside we bring the white text from the bottom*/
 
 
 
@@ -331,6 +331,7 @@ display:flex; /*       the image occupied the full wrapp div      */
 
 .project:hover .project__description{
   opacity:1;
+  transform: translateY(-50%);
   
 
 }
@@ -362,6 +363,12 @@ display:flex; /*       the image occupied the full wrapp div      */
   font-size:30px;
 
 }
+.project{
+  margin-bottom:50px;
+}
+
+
+/* PROJECT */
 
 
 
