@@ -505,8 +505,7 @@ font-size: 16px;
 {
 
 
-  .nav__link:not(:last-child){
-
+  .nav__link:not(:last-child){    /*if its not contact link then hide links*/
     display: none;
   }
   
@@ -515,6 +514,41 @@ font-size: 16px;
 
       padding: 0 12px;
     }
+
+    .project__description--para{
+      display:none;
+
+    }
+.project__description--title{
+
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.project__description--subtitle{
+  font-size:24px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.project__description--links{
+
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  
+
+}
+
+.project__description--link{
+  padding:0 10px;
+}
+
+.project__description{
+  padding-left:30px;
+
+}
 
   }
 
