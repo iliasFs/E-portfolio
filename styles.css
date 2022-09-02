@@ -448,3 +448,36 @@ transition: all 600ms ease;
 }
 
 
+
+/* small phones // tablets // large smartphones */
+
+@media (max-width:768px){
+nav { 
+  
+  height: 68px;
+      
+}
+
+h1{
+
+  font-size: 26px;
+}
+
+.about-me__info--para{
+
+font-size: 16px;
+}
+
+.row{
+  width:100%;
+  max-width:500px;
+}
+
+.language {
+
+  width:calc(100% / 2);
+
+}
+
+}
+
