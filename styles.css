@@ -40,6 +40,7 @@ p {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  
 }
 
 section:nth-child(even)
@@ -470,14 +471,53 @@ font-size: 16px;
 
 .row{
   width:100%;
-  max-width:500px;
+  max-width:768px;
 }
 
 .language {
 
-  width:calc(100% / 2);
+  width:calc(100% / 3);
+  
 
 }
 
+.language__list{
+
+  justify-content: center;
 }
 
+.project__description--para{
+
+  font-size: 14px;
+}
+
+.project__description{
+
+  padding-right: 30px;
+  left:30px;
+}
+
+
+
+}
+
+@media(max-width:480px)
+{
+
+
+  .nav__link:not(:last-child){
+
+    display: none;
+  }
+  
+    
+    .row{
+
+      padding: 0 12px;
+    }
+
+  }
+
+
+
+  
